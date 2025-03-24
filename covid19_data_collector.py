@@ -100,6 +100,7 @@ def collect_all_data():
     if indonesia_historical:
         save_data(indonesia_historical, "covid19_historical_indonesia")
     
+    # 5. Data telah selesai dibuat
     print("Pengumpulan data selesai!")
     return global_data, countries_data, historical_data, indonesia_historical
 
